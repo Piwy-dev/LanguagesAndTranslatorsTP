@@ -1,1 +1,12 @@
 **/commit_hash.tex
+
+# Ingonre LaTeX auxiliary files
+*.atfi
+*.aux
+*.auxlock
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
