@@ -4,11 +4,11 @@
 \usetikzlibrary{automata,positioning}
 \begin{document}
 \begin{tikzpicture}[shorten >=1pt,node distance=3cm,on grid,auto] 
-    \node[state, initial] (21)    {a};
-    \node[state] (22) [below right=of 21] {b};
-   \node[state] (0) [above right= of 22]   {$0$}; 
-   \node[state,accepting] (1) [above right=of 0] {$1$}; 
-   \node[state] (2) [below right=of 0] {$2$};
+    \node[state, initial] (21)    {$0$};
+    \node[state] (22) [below right=of 21] {$1$};
+   \node[state] (0) [above right= of 22]   {$2$}; 
+   \node[state,accepting] (1) [above right=of 0] {$3$}; 
+   \node[state] (2) [below right=of 0] {$4$};
 
     \path[->] (21) edge node  {a, b} (0);
     \path[->] (21) edge node  {b} (22);
